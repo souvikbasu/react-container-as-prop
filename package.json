@@ -1,0 +1,25 @@
+{
+  "name": "react-container-as-prop",
+  "version": "0.1.0",
+  "description": "Attach React Container as a prop to Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souvikbasu/react-container-as-prop.git"
+  },
+  "keywords": [
+    "react",
+    "container",
+    "component",
+    "container-as-prop"
+  ],
+  "author": "Souvik Basu <souvikbasu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/souvikbasu/react-container-as-prop/issues"
+  },
+  "homepage": "https://github.com/souvikbasu/react-container-as-prop#readme"
+}
