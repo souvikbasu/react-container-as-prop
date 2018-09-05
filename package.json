@@ -1,6 +1,6 @@
 {
   "name": "react-container-as-prop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Attach React Container as a prop to Component",
   "main": "index.js",
   "scripts": {
