@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class BaseContainer extends React.Component {
+export default class BaseContainer extends Component {
   constructor(props) {
     super(props);
   }
