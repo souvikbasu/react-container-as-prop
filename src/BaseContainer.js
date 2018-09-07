@@ -9,10 +9,10 @@ export default class BaseContainer extends Component {
     return {};
   }
 
-  bindCaller(component) {
+  async bindCaller(component) {
     let props = component.props;
 
-    let extraProps = this.getData();
+    let extraProps = await this.getData();
     component.props = Object.assign(extraProps, props);
     this.childComponent = component.render();
     return this.render.bind(this);

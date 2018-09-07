@@ -7,7 +7,9 @@ export default class BaseComponent extends Component {
 
   componentDidMount() {
     let vm = new this.props.vm();
-    this.render = vm.bindCaller(this);
-    this.forceUpdate();
+    vm.bindCaller(this).then(newRender => {
+      this.render = newRender;
+      this.forceUpdate();
+    })
   }
 }
