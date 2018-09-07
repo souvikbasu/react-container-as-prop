@@ -21,7 +21,6 @@ export default class BaseContainer extends Component {
   render() {
     return (
       <div style={{textAlign: 'center'}}>
-        <div>asdad</div>
         {this.childComponent}
       </div>);
   }
