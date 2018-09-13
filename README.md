@@ -18,7 +18,7 @@ yarn add react-container-as-prop
 
 
 ### PlayGround
-### Click [here](https://codesandbox.io/s/jjw8881kyy) for live demo
+Click [here](https://codesandbox.io/s/jjw8881kyy) for live demo
 
 ### Why Container as Prop?
 
@@ -120,4 +120,4 @@ yarn start
 open http://localhost:3000
 ```
 
-If you like the idea, please :star: the repo
+If you like the idea, please :star: this repo
