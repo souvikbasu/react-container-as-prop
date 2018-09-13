@@ -29,7 +29,7 @@ Say you want to show person full name on screen. Ideally you will have a contain
 ```js
 import { BaseContainer } from "react-container-as-prop";
 
-export default class PersonData extends BaseContainer {
+export default class PersonContainer extends BaseContainer {
   getData() {
     return { firstName: "Bhagat", lastName: "Singh" };
   }
@@ -98,9 +98,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <PersonName container={PersonData} />
-        <PersonNameReversed container={PersonData} />
-        <Country container={CountryData} />
+        <PersonName container={PersonContainer} />
+        <PersonNameReversed container={PersonContainer} />
+        <Country container={CountryContainer} />
       </div>
     );
   }

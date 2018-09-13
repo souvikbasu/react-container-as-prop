@@ -2,17 +2,17 @@ import React from 'react';
 
 import PersonName from './PersonName';
 import PersonNameReversed from './PersonNameReversed';
-import PersonData from '../containers/PersonData';
+import PersonContainer from '../containers/PersonContainer';
 import Country from './Country';
-import CountryData from '../containers/CountryData';
+import CountryContainer from '../containers/CountryContainer';
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <PersonName container={PersonData} />
-        <PersonNameReversed container={PersonData} />
-        <Country container={CountryData} />
+        <PersonName container={PersonContainer} />
+        <PersonNameReversed container={PersonContainer} />
+        <Country container={CountryContainer} />
       </div>);
   }
 }
