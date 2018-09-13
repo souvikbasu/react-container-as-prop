@@ -1,4 +1,4 @@
-import { BaseContainer } from '../../../dist';
+import { BaseContainer } from 'react-container-as-prop';
 
 export default class PersonData extends BaseContainer {
   getData() {

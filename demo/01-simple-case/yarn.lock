@@ -3059,15 +3059,13 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-container-as-prop@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/react-container-as-prop/-/react-container-as-prop-0.2.1.tgz#0092b4d02300ae8c4809a83f5485e1d7452e3746"
+react-container-as-prop@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/react-container-as-prop/-/react-container-as-prop-0.2.6.tgz#33b54a46c0981c75157d0864f0882d4f40873455"
   dependencies:
     babel-plugin-transform-class-properties "^6.24.1"
     html-webpack-plugin "^2.26.0"
     path "^0.12.7"
-    react "^15.4.2"
-    react-dom "^15.4.2"
     webpack "^2.2.1"
     webpack-dev-server "^2.3.0"
 

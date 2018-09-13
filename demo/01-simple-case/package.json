@@ -12,7 +12,7 @@
     "html-webpack-plugin": "^2.26.0",
     "path": "^0.12.7",
     "react": "^15.4.2",
-    "react-container-as-prop": "^0.2.5",
+    "react-container-as-prop": "^0.2.6",
     "react-dom": "^15.4.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"

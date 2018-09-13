@@ -1,5 +1,5 @@
 import React from 'react';
-import { BaseComponent } from '../../../dist';
+import { BaseComponent } from 'react-container-as-prop';
 
 export default class PersonName extends BaseComponent {
   render() {
