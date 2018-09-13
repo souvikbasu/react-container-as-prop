@@ -27,10 +27,10 @@ import React from "react";
 export default class App extends React.Component {
   render() {
     return (
-      <div style={{ textAlign: "center" }}>
-        <PersonName vm={PersonData} />
-        <PersonNameReversed vm={PersonData} />
-        <Country vm={CountryData} />
+      <div>
+        <PersonName container={PersonData} />
+        <PersonNameReversed container={PersonData} />
+        <Country container={CountryData} />
       </div>
     );
   }
@@ -60,10 +60,10 @@ export default class PersonName extends BaseComponent {
     const { firstName, lastName } = this.props;
 
     return (
-      <div style={{ textAlign: "center" }}>
-        <h1>
+      <div>
+        <div>
           {firstName} {lastName}
-        </h1>
+        </div>
       </div>
     );
   }
@@ -82,10 +82,10 @@ export default class PersonNameReversed extends BaseComponent {
     const { firstName, lastName } = this.props;
 
     return (
-      <div style={{ textAlign: "center" }}>
-        <h1>
+      <div>
+        <div>
           {lastName}, {firstName}
-        </h1>
+        </div>
       </div>
     );
   }

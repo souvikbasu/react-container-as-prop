@@ -9,10 +9,10 @@ import CountryData from '../containers/CountryData';
 export default class App extends React.Component {
   render() {
     return (
-      <div style={{textAlign: 'center'}}>
-        <PersonName vm={PersonData} />
-        <PersonNameReversed vm={PersonData} />
-        <Country vm={CountryData} />
+      <div>
+        <PersonName container={PersonData} />
+        <PersonNameReversed container={PersonData} />
+        <Country container={CountryData} />
       </div>);
   }
 }

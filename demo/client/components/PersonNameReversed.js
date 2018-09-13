@@ -6,8 +6,8 @@ export default class PersonNameReversed extends BaseComponent {
     const {firstName, lastName} = this.props;
 
     return (
-      <div style={{textAlign: 'center'}}>
-        <h1>{lastName}, {firstName}</h1>
+      <div>
+        <div>Full name (Reversed): {lastName}, {firstName}</div>
       </div>);
   }
 }
